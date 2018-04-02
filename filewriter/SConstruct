@@ -1,0 +1,2 @@
+Library('filewriter',['./lib/filewriter.cc'])
+Program('main.cc', LIBS=['filewriter'], LIBPATH='.')
