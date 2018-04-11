@@ -1,0 +1,2 @@
+Library('mandelbrot',['./lib/mandelbrot.cc'])
+Program('main.cc', LIBS=['mandelbrot'], LIBPATH='.')
