@@ -5,6 +5,8 @@
 #include "mandelbrot.hpp"
 using namespace std;
 
+// To view → http://paulcuth.me.uk/netpbm-viewer/
+
 int MandelbrotGen::findMandelBrot(double cr, double ci, int maxIt)
 {
     int i = 0;
